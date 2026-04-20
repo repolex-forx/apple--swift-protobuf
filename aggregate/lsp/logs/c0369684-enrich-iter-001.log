@@ -1,0 +1,21 @@
+[2026-04-20T03:36:32Z] === ENRICH ITERATION 1 START | repo=apple/swift-protobuf sha=c0369684 ===
+[2026-04-20T03:36:32Z] [iter=1] PHASE START: enrich repo=apple/swift-protobuf sha=c0369684 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c0369684-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c036968472334e42e06e4133a4ca846eabebafca.nq.gz
+[2026-04-20T03:36:32Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-20T03:41:31Z] [iter=1] AST store loaded triples=23714509 load_secs=289 mem_mb=1204 MB
+[2026-04-20T03:41:31Z] [iter=1] Step 2: Finding LSP targets mem_mb=1204 MB
+[2026-04-20T03:44:17Z] [iter=1] LSP targets found call_sites=117520 imports=667 extends=0 implements=0 secs=166
+[2026-04-20T03:47:01Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1204 MB
+[2026-04-20T03:49:13Z] [iter=1] Position index built positions=1299192 nodes_with_types=1535037 secs=132 mem_mb=3333 MB
+[2026-04-20T03:49:13Z] [iter=1] Step 3: Starting LSP resolution mem_mb=3333 MB already_completed_types=[] already_completed_files=0
+[2026-04-20T03:49:13Z] [iter=1] Resolving target type target_type=call_site count=117520
+[2026-04-20T03:49:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=12.8 files_done=0 resolved=0 errors=117520 current=Performance/Harness.h
+[2026-04-20T03:53:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=16.6 files_done=1 resolved=13 errors=117543 current=Performance/Harness.cc
+[2026-04-20T03:54:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=17.8 files_done=2 resolved=13 errors=117550 current=Performance/main.cc
+[2026-04-20T03:57:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=21.1 files_done=4 resolved=41 errors=117570 current=Performance/js/harness-visualization.js
+[2026-04-20T04:04:16Z] [iter=1] Target type resolved target_type=call_site resolved=42 errors=117610 secs=903 mem_mb=3347 MB
+[2026-04-20T04:04:16Z] [iter=1] Resolving target type target_type=import_statement count=667
+[2026-04-20T04:04:17Z] [iter=1] HEARTBEAT target_type=import_statement elapsed_min=27.8 files_done=0 resolved=0 errors=667 current=Performance/Harness.cc
+[2026-04-20T04:04:21Z] [iter=1] Target type resolved target_type=import_statement resolved=6 errors=667 secs=5 mem_mb=3347 MB
+[2026-04-20T04:04:27Z] [iter=1] Step 5: Writing final enrichment file triples=2930
+[2026-04-20T04:04:27Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/c036968472334e42e06e4133a4ca846eabebafca.nq.gz size_kb=50
+[2026-04-20T04:04:27Z] [iter=1] PHASE END: enrich elapsed_s=1675 elapsed_min=27.9 total_triples=2930
