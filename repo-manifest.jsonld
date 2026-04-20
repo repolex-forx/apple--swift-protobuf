@@ -10,7 +10,7 @@
       "git:hexsha": "c036968472334e42e06e4133a4ca846eabebafca",
       "repolex:parseStatus": "parsed",
       "git:tagName": "protoc-artifactbundle-v31.1",
-      "repolex:parsedAt": "2026-04-20T01:50:15.585248+00:00"
+      "repolex:parsedAt": "2026-04-20T02:22:12.598071+00:00"
     },
     {
       "@id": "https://repolex.ai/r/apple/swift-protobuf/commit/f45189854fe15937e26631fbeebd0f135035dbd8",

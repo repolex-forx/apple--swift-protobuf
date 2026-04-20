@@ -23,7 +23,7 @@
       "@type": "repolex:GraphFile",
       "repolex:graphType": "branch",
       "repolex:graphFilePath": "branch/branch.nq.gz",
-      "repolex:graphFileSize": 655
+      "repolex:graphFileSize": 660
     },
     {
       "@type": "repolex:GraphFile",
@@ -45,7 +45,7 @@
     }
   ],
   "repolex:parseStatus": "parsed",
-  "repolex:parsedAt": "2026-04-20T01:50:15.585173+00:00",
+  "repolex:parsedAt": "2026-04-20T02:22:12.597886+00:00",
   "repolex:parserVersion": "0.1.0",
   "git:tagName": "protoc-artifactbundle-v31.1"
 }
